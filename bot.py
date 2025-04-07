@@ -19,7 +19,11 @@ async def start(ctx: commands.Context):
 
 @bot.command()
 async def help_me(ctx: commands.Context):
-    await ctx.send("dfasjdıfjsadjfoasjdfjasldfjksdjflakf"
+    await ctx.send("""- `!start` - Botu başlatın ve hoş geldiniz mesajı alın.
+- `!help_me` - Mevcut komutların listesini alın. 
+- `!show_city <şehir_adı>` - Verilen şehri haritada görüntüleyin."
+- `!remember_city <şehir_adı>` - Verilen şehri kaydedin.
+- `!show_my_cities` -  Tüm hatırlanan şehirleri görüntüleyin."""
         # Kullanılabilir komutların listesini gösterecek olan komutu yazın.
     )
 

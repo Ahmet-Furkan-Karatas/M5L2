@@ -61,7 +61,10 @@ class DB_Map():
             if coordinates:
                 lat, lng = coordinates
                 plt.plot([lng], [lat], color="r", linewidth=1, marker=".", transform=ccrs.Geodetic())
-                plt.text(lng + 3, lat + 12, city, horizontalaligment="left", transform=ccrs.Geodetic())
+                plt.text(lng + 3, lat + 12, city, horizontalalignment="left", transform=ccrs.Geodetic())
+        plt.savefig(path)  # ---> HARİTAYI KAYDET
+        plt.close()        # ---> BELLEĞİ TEMİZLE
+
 
     def draw_distance(self, city1, city2):
         city1_coords = self.get_coordinates(city1)

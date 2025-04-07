@@ -22,15 +22,18 @@ Bu proje, kullanıcıların belirli şehirleri haritada görüntülemelerini ve 
     git clone <depo_baglantisi>
     cd <depo_adi>
     ```
+
 2. **Bağımlılıkları yükleyin:**
     ```bash
     pip install -r requirements.txt
     ```
+
 3. **Ortam değişkenlerini yapılandırın:**
-Projenin kök dizinindeki `config.py` dosyasını açın ve gerekli değişkenleri ayarlayın:
+   Projenin kök dizinindeki `config.py` dosyasını açın ve gerekli değişkenleri ayarlayın:
     ```bash
     TOKEN=<token_degeriniz>
     ```
+
 4. **Botu çalıştırın:**
     ```bash
     python bot.py
@@ -38,8 +41,9 @@ Projenin kök dizinindeki `config.py` dosyasını açın ve gerekli değişkenle
 
 ## Bot komutları listesi:
 
-- `!start` - Botu başlatın ve hoş geldiniz mesajı alın."
-- `!help_me` - Mevcut komutların listesini alın. "
-- `!show_city <şehir_adı>` - Verilen şehri haritada görüntüleyin."
-- `!remember_city <şehir_adı>` - Verilen şehri kaydedin."
-- `!show_my_cities` -  Tüm hatırlanan şehirleri görüntüleyin."
+- `!start` - Botu başlatın ve hoş geldiniz mesajı alın.
+- `!help_me` - Mevcut komutların listesini alın.
+- `!show_city <şehir_adı>` - Verilen şehri haritada görüntüleyin.
+- `!remember_city <şehir_adı>` - Verilen şehri kaydedin.
+- `!show_my_cities` - Tüm hatırlanan şehirleri görüntüleyin.
+git 
